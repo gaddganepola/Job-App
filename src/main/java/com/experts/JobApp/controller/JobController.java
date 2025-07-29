@@ -11,4 +11,9 @@ public class JobController {
         return "home";
     }
 
+    @RequestMapping("addjob")
+    public String addJob() {
+        return "addjob";
+    }
+
 }
