@@ -9,13 +9,13 @@ import java.util.List;
 
 //Lombok will handle the getters, setters, toString, and constructors
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
-@Component
+@NoArgsConstructor
+//@Component
 public class JobPost {
     private int postId;
     private String postProfile;
     private String postDesc;
-    private String reqExperience;
+    private int reqExperience;
     private List<String> postTechStack;
 }
